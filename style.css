@@ -1,0 +1,182 @@
+
+/* Inicio estilos Navbar*/
+.nav-topbar {
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.nav-topbar .topbar-inner {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 18px 50px;
+}
+
+.nav-topbar .topbar-inner .logo h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px; 
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #727272; 
+    margin: 0; 
+}
+
+.nav-topbar .topbar-inner ul {
+    list-style: none; 
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-topbar .topbar-inner ul li {
+    margin: 0 25px;
+}
+
+.nav-topbar .topbar-inner ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #7a7a7a;
+    text-decoration: none; 
+    transition: color 0.3s ease;
+}
+
+/* Fin estilos Navbar*/
+
+/* Inicio estilos Banner*/
+.content-container {
+    display: flex;
+    height: 400px; 
+}
+
+.text-container {
+    flex: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f5f5f5; 
+}
+
+.image-container {
+    flex: 1;
+    position: relative;
+    padding: 0%;
+    overflow: hidden; 
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+/* Fin estilos Banner*/
+
+/* Inicio estilos About*/
+
+.about-section{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+
+}
+.about-section .about-inner{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.about-section .right{
+    position: relative;
+    width: 50%;
+    padding-right: 50px;
+}
+
+.about-section .right .desc{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+
+
+
+}
+
+.about-section .left img{
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+
+
+}
+
+.title span{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 4px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: black;
+    color: #fff;
+}
+
+.title h2{
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 1.4;
+    color: #000;
+
+}
+
+.about-section .left{
+    position: relative;
+    width: 50%;
+    padding-left: 50px;
+
+}
+
+.button a{
+    position: relative;
+    display: inline-block;
+    padding: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid;
+    background-color: #474747;
+    color: #fff;
+    transition: all .5s ease;
+
+}
+
+.button a:hover{
+    background-color: transparent;
+    color: #2f2f2f;
+}
+/* Final estilos About*/
+
+
+
+
+
+
+
+
+
+
+
+
