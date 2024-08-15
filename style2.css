@@ -1,0 +1,138 @@
+.imagenes-seccion{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.imagenes-seccion .title-flex{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.imagenes-seccion .title-flex ul li{
+    display: inline-block;
+    margin: 0 25px 0 0;
+}
+
+.imagenes-seccion .title-flex ul li a{
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color:#000;
+
+}
+
+.imagenes-seccion .imagenes-list .imagenes-box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 10px;
+
+
+}
+
+.imagenes-seccion .imagenes-list{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.imagenes-seccion .imagenes-box .box .content{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    top: 35em;
+}
+
+.imagenes-seccion .imagenes-shadow.active .content {
+    opacity: 1;
+    visibility:visible;
+}
+
+.imagenes-seccion .imagenes-shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.imagenes-seccion .imagenes-shadow.active{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+
+}
+
+
+.imagenes-seccion .imagenes-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.imagenes-seccion .imagenes-shadow.active img{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+    width: calc(100% - 100px);
+    height: calc(100% - 90px);
+
+}
+
+.imagenes-seccion .imagenes-shadow.active .box{
+    position: relative;
+    width: 70%;
+    height: 80%;
+    overflow-y: scroll;
+}
+
+.imagenes-seccion .imagenes-box .box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.imagenes-seccion .imagenes-shadow.active .box::-webkit-scrollbar{
+    width: 5px;
+}
+
+.imagenes-seccion .imagenes-shadow.active .box::-webkit-scrollbar-thumb{
+    background-color: #c7c5c5;
+    border-radius: 20px;
+}
+
+
+
