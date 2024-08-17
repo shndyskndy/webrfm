@@ -7,7 +7,7 @@ imageBox.forEach(popup => {
 
 });
     document.addEventListener('DOMContentLoaded', function () {
-    var toggler = document.querySelector('.navbar-toggler');
+    var toggler = document.querySelector('.navbar-toggler-icon');
     var navLinks = document.querySelector('#navbarNav');
 
     toggler.addEventListener('click', function () {
